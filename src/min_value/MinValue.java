@@ -14,13 +14,13 @@ public class MinValue {
 
     // По аналогии можем найти максимальное значение в массиве
     static int max(int[] arr) {
-        int minValue = arr[0];
+        int maxValue = arr[0];
         for (int i = 1; i < arr.length; i++) {
-            if (minValue < arr[i]) {
-                minValue = arr[i];
+            if (maxValue < arr[i]) {
+                maxValue = arr[i];
             }
         }
-        return minValue;
+        return maxValue;
     }
 
     // Используя данный алгоритм можем найти индекс min/max значения.
