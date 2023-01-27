@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12dd6426-ed83-4062-9af9-59f6a51ac60c" name="Changes" comment="bubble_sort">
-      <change afterPath="$PROJECT_DIR$/src/selection_sort/SelectionSort.java" afterDir="false" />
+    <list default="true" id="12dd6426-ed83-4062-9af9-59f6a51ac60c" name="Changes" comment="selection_sort">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bubble_sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bubble_sort/BubbleSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +48,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SelectionSort">
+  <component name="RunManager" selected="Application.BubbleSort">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bubble_sort.BubbleSort" />
       <module name="algorithms" />
@@ -90,8 +90,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.MinValue" />
       </list>
     </recent_temporary>
@@ -106,7 +106,8 @@
       <updated>1674746677158</updated>
       <workItem from="1674746679846" duration="13275000" />
       <workItem from="1674768924129" duration="2131000" />
-      <workItem from="1674807958649" duration="1345000" />
+      <workItem from="1674807958649" duration="1636000" />
+      <workItem from="1674823813560" duration="1266000" />
     </task>
     <task id="LOCAL-00001" summary="min_value">
       <created>1674748361053</created>
@@ -136,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674749810053</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="selection_sort">
+      <created>1674810155236</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674810155236</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +153,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="min_value" />
     <MESSAGE value="bubble_sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="bubble_sort" />
+    <MESSAGE value="selection_sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="selection_sort" />
   </component>
 </project>
