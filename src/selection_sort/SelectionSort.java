@@ -35,13 +35,13 @@ public class SelectionSort {
         return arr;
     }
 
-    private static int min(int[] arr, int start) {
-        int minValue = arr[start];
-        int minIndex = start;
-        for (int i = start + 1; i < arr.length; i++) {
-            if (minValue > arr[i]) {
-                minValue = arr[i];
-                minIndex = i;
+    private static int min(int[] arr, int i) {
+        int minValue = arr[i];
+        int minIndex = i;
+        for (int j = i + 1; j < arr.length; j++) {
+            if (minValue > arr[j]) {
+                minValue = arr[j];
+                minIndex = j;
             }
         }
         return minIndex;
@@ -52,7 +52,6 @@ public class SelectionSort {
         for (int i = 0; i < arr.length - 1; i++) {
             int min = arr[i];
             int index = i;
-
             for (int j = i + 1; j < arr.length; j++) {
                 if (min > arr[j]) {
                     min = arr[j];

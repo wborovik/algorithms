@@ -49,9 +49,9 @@ public class BubbleSort {
     }
 
     public static void main(String[] args) {
-        int[] arr = new int[]{2, 10, 1, 4, -7, 3, 12};
-        int[] arr1 = new int[]{2, 10, 1, 4, -7, 3, 12};
-        int[] arr2 = new int[]{2, 10, 1, 4, -7, 3, 12};
+        int[] arr = new int[]{2, 10, 1, 4, -7, 3, 12, 1};
+        int[] arr1 = new int[]{2, 10, 1, 4, -7, 3, 12, 1};
+        int[] arr2 = new int[]{2, 10, 1, 4, -7, 3, 12, 1};
 
         System.out.println(Arrays.toString(bubbleSort(arr)));
         System.out.println(Arrays.toString(bubbleSort1(arr1)));
