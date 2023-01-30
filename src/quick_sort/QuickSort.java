@@ -4,34 +4,35 @@ import java.util.Arrays;
 
 public class QuickSort {
 
-    static void quickSort(int[] arr, int low, int high) {
-        if (low >= high)
-            return;
-        int pivot = (low + high) / 2;
-        int leftIndex = low;
-        int rightIndex = high;
+    public static void quickSort(int[] arr, int low, int high) {
 
-        while (leftIndex <= rightIndex) {
-            while (arr[leftIndex] < arr[pivot]) {
-                leftIndex++;
-            }
-            while (arr[rightIndex] > arr[pivot]) {
-                rightIndex--;
-            }
+        if (low < high) {
+            int leftIndex = low;
+            int rightIndex = high;
+            int pivot = arr[low + (high - low) / 2];
 
-            if (leftIndex <= rightIndex) {
-                int temp = arr[leftIndex];
-                arr[leftIndex] = arr[rightIndex];
-                arr[rightIndex] = temp;
+            while (leftIndex <= rightIndex) {
+                while (arr[leftIndex] < pivot) {
+                    leftIndex++;
+                }
 
-                leftIndex++;
-                rightIndex--;
+                while (arr[rightIndex] > pivot) {
+                    rightIndex--;
+                }
+
+                if (leftIndex <= rightIndex) {
+                    int tmp = arr[rightIndex];
+                    arr[rightIndex] = arr[leftIndex];
+                    arr[leftIndex] = tmp;
+
+                    leftIndex++;
+                    rightIndex--;
+                }
             }
+            quickSort(arr, low, leftIndex - 1);
+            quickSort(arr, leftIndex, high);
         }
-        quickSort(arr, low, rightIndex);
-        quickSort(arr, leftIndex, arr.length - 1);
     }
-
 
     public static void main(String[] args) {
         int[] arr = new int[]{2, 7, 4, 5, 8, 1, 3, 6};
