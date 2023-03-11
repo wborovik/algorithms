@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12dd6426-ed83-4062-9af9-59f6a51ac60c" name="Changes" comment="quick">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="12dd6426-ed83-4062-9af9-59f6a51ac60c" name="Changes" comment="quick" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +18,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -139,6 +142,7 @@
       <workItem from="1678515981674" duration="275000" />
       <workItem from="1678516456890" duration="35000" />
       <workItem from="1678516507178" duration="28000" />
+      <workItem from="1678516561496" duration="763000" />
     </task>
     <task id="LOCAL-00001" summary="min_value">
       <created>1674748361053</created>
@@ -196,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675067347240</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="quick">
+      <created>1678516671836</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1678516671836</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +230,7 @@
     <MESSAGE value="bubble_sort" />
     <MESSAGE value="insertion_sort" />
     <MESSAGE value="quick_sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="quick_sort" />
+    <MESSAGE value="quick" />
+    <option name="LAST_COMMIT_MESSAGE" value="quick" />
   </component>
 </project>
